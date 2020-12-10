@@ -40,7 +40,7 @@ bot('sendmessage',[
  'chat_id'=>$chat_id,
  'text'=>"$START_MESSAGE
 
-YOU CAN ALSO MAKE A BOT LIKE THIS FROM <a href="https://github.com/BenchamXd/Tts-bot">HERE</a>",
+YOU CAN ALSO MAKE A BOT LIKE THIS FROM <a href="https://github.com/BenchamXd/">HERE</a>",
 'parse_mode'=>"HTML",
 'reply_to_message_id'=>$message_id,
  ]);
