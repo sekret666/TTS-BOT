@@ -34,9 +34,6 @@ $first_name = $message->from->first_name;
 $last_name = $message->from->last_name;
 $username = $message->from->userame;
 $text = $message->text;
-$reply = $update->message->reply_to_message;
-$video = $message->video;
-$ADMIN = 000000;
 //====================Tikapp======================//
 if($text == '/start'){
 bot('sendmessage',[
