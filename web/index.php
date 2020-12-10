@@ -50,6 +50,7 @@ $vo = file_get_contents('http://tts.baidu.com/text2audio?lan=en&ie=UTF-8&text='.
  'chat_id'=>$chat_id,
 'reply_to_message_id'=>$message_id,
  'voice'=>new CURLFile('in.ogg'),
+'caption'=>"$BOT_USER_NAME",
  ]);
  unlink('in.ogg');
  }
