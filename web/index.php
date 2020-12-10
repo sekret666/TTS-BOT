@@ -24,7 +24,7 @@ function bot($method,$datas=[]){
  'parse_mode'=>$mode
  ]);
  }
-//====================Tikapp======================//
+//==================RITHUNAND [BENCHAMXD]==================//
 $update = json_decode(file_get_contents('php://input'));
 $message = $update->message;
 $message_id = $message->message_id;
@@ -34,7 +34,7 @@ $first_name = $message->from->first_name;
 $last_name = $message->from->last_name;
 $username = $message->from->userame;
 $text = $message->text;
-//====================Tikapp======================//
+//==================RITHUNAND [BENCHAMXD]==================//
 if($text == '/start'){
 bot('sendmessage',[
  'chat_id'=>$chat_id,
