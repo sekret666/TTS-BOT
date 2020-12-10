@@ -1,8 +1,7 @@
 <?php 
+require_once __DIR__ . "/config.php";
 
 ob_start();
-
-$API_KEY = '1493291816:AAGt_rXHbSfLbCWujGk7ZI-PzxAArrG0qzI';
 ##------------------------------##
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
