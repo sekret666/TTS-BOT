@@ -38,9 +38,7 @@ $text = $message->text;
 if($text == '/start'){
 bot('sendmessage',[
  'chat_id'=>$chat_id,
- 'text'=>"$START_MESSAGE
-
-YOU CAN ALSO MAKE A BOT LIKE THIS FROM <a href="https://github.com/BenchamXd/">HERE</a>",
+ 'text'=>"$START_MESSAGE",
 'parse_mode'=>"HTML",
 'reply_to_message_id'=>$message_id,
  ]);
