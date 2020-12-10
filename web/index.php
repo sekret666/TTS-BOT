@@ -3,6 +3,7 @@ require_once __DIR__ . "/config.php";
 
 ob_start();
 ##------------------------------##
+file_get_contents('api.telegram.org/bot'.$API_KEY.'/setwebhook?url=https://'.$APP_NAME.'herokuapp.com/');
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
