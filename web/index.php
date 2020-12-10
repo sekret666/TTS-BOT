@@ -1,4 +1,7 @@
-<?php 
+<?php
+<html>
+<h1>PLEASE ENSURE TO SET WEBHOOK</h>
+</html>
 require_once __DIR__ . "/config.php";
 
 ob_start();
@@ -54,6 +57,3 @@ $vo = file_get_contents('http://tts.baidu.com/text2audio?lan=en&ie=UTF-8&text='.
  ]);
  unlink('in.ogg');
  }
-<html>
-<h1>PLEASE ENSURE TO SET WEBHOOK</h>
-</html>
