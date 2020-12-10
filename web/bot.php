@@ -41,7 +41,7 @@ $ADMIN = 000000;
 if($text == '/start'){
 bot('sendmessage',[
  'chat_id'=>$chat_id,
- 'text'=>$_ENV['START_MESSAGE'],
+ 'text'=>$_ENV["START_MESSAGE"],
 'reply_to_message_id'=>$message_id,
  ]);
 }
