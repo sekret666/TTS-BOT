@@ -1,5 +1,5 @@
 # TTS-BOT
-A Telegram bot that can change English Text to Voice.
+A Telegram bot that can Convert Text To Speach
 
 # DEPLOY
 YOU CAN SIMPLY DEPLOY ON HEROKU BY CLICKING THE BUTTON BELOW
