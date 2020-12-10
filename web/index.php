@@ -1,4 +1,11 @@
 <?php
+/*
+AUTHOR:- RITHUNAND [BENCHAMXD]
+
+CHANNEL:- @INDUSBOTS & @V3BOTS
+
+THIS REPO IS LICENCED WITH GENERAL PUBLIC LICENSE VERSION:3.0
+*/
 require_once __DIR__ . "/config.php";
 
 ob_start();
