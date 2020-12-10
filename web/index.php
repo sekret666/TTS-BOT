@@ -44,8 +44,8 @@ bot('sendmessage',[
  ]);
 }
 if($text !== '/start'){
-$vo = file_get_contents('http://tts.baidu.com/text2audio?lan=en&ie=UTF-8&text='.urlencode($text));
- file_put_contents('in.ogg',$vo);
+$indusbots = file_get_contents('http://tts.baidu.com/text2audio?lan=en&ie=UTF-8&text='.urlencode($text));
+ file_put_contents('in.ogg',$indusbots);
  bot('sendvoice',[
  'chat_id'=>$chat_id,
 'reply_to_message_id'=>$message_id,
