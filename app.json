@@ -6,7 +6,7 @@
         "Telegram",
         "Bot"
     ],
-    "logo": "#TODO",
+    "logo": "https://telegra.ph/file/a251cb92f717d021f7fab.jpg",
     "repository": "https://github.com/Benchamxd/Bin-Checker",
     "success_url": "/bot.php",
     "env": {
