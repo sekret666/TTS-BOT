@@ -38,12 +38,10 @@ $text = $message->text;
 if($text == '/start'){
 bot('sendmessage',[
  'chat_id'=>$chat_id,
- 'text'=><<<EOM
+ 'text'=>"$START_MESSAGE
 
-$START_MESSAGE
-
-YOU CAN ALSO MAKE A BOT LIKE THIS FROM <a href="https://github.com/BenchamXD/TTS-BOT">HERE</a>
-EOM;,
+YOU CAN ALSO MAKE A BOT LIKE THIS FROM <a href="https://github.com/BenchamXD/TTS-BOT">HERE</a>",
+'parse_mode'=>"HTML",
 'reply_to_message_id'=>$message_id,
  ]);
 }
