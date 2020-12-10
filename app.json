@@ -1,0 +1,29 @@
+{
+    "name": "TTS BOT",
+    "description": "A PHP Telegram Bot To make Your Text into Voice.",
+    "keywords": [
+        "TTS",
+        "Telegram",
+        "Bot"
+    ],
+    "logo": "#TODO",
+    "repository": "https://github.com/Benchamxd/Bin-Checker",
+    "success_url": "/bot.php",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },"BOT_USER_NAME": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },
+        "START_MESSAGE": {
+            "description": "A start message for your bot."
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
