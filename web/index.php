@@ -1,5 +1,6 @@
 <html>
 <h1>PLEASE ENSURE TO SET WEBHOOK</h>
+<h5>TO SET WEBHOOK DO <tt>api.telegram.org/bot<Your bot token>/setwebhook?url=<HEROKU URL></tt></h5>
 </html>
 <?php
 require_once __DIR__ . "/config.php";
