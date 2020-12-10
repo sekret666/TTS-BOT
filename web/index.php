@@ -1,7 +1,7 @@
-<?php
 <html>
 <h1>PLEASE ENSURE TO SET WEBHOOK</h>
 </html>
+<?php
 require_once __DIR__ . "/config.php";
 
 ob_start();
