@@ -13,7 +13,7 @@
         "TG_BOT_TOKEN": {
             "description": "your Telegram Bot Token, from @BotFather"
         },"BOT_USER_NAME": {
-            "description": "your Telegram Bot Token, from @BotFather"
+            "description": "your Telegram Bot Username"
         },
         "START_MESSAGE": {
             "description": "A start message for your bot."
