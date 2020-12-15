@@ -7,7 +7,7 @@
         "Bot"
     ],
     "logo": "https://telegra.ph/file/a251cb92f717d021f7fab.jpg",
-    "repository": "https://github.com/Benchamxd/Bin-Checker",
+    "repository": "https://github.com/Benchamxd/TTS-BOT",
     "success_url": "/bot.php",
     "env": {
         "TG_BOT_TOKEN": {
